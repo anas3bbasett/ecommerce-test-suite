@@ -1,0 +1,24 @@
+SAMPLE MANUAL TEST CASES
+
+1. Test Case: Valid Login
+- Steps: Open website, enter standard username and password, click Login.
+- Expected Result: User is redirected to the products inventory page.
+- Actual Result: Redirected successfully. (Pass)
+
+2. Test Case: Invalid Password
+- Steps: Open website, enter standard username and wrong password, click Login.
+- Expected Result: Error message shows "Epic sadface: Username and password do not match".
+- Actual Result: Error message appeared correctly. (Pass)
+
+--------------------------------------------------
+
+SAMPLE BUG REPORTS
+
+Bug 1: Cart Counter Error
+- Description: When adding an item to the cart, the cart badge icon does not update immediately.
+- Steps to Reproduce: 
+  1. Open products page.
+  2. Click "Add to cart" on Backpack.
+  3. Look at cart icon at top right.
+- Expected Result: Cart icon shows "1".
+- Actual Result: Cart icon stays at "0" until page is refreshed.
